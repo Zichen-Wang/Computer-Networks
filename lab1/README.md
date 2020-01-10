@@ -15,4 +15,4 @@
 
 ### Part 4: Retransimission
 * The server has 50% possibility to drop a request from clients.
-* The clients will set a alarm and retransmit when timeout up to 3 times.
+* The clients will set an alarm with a signal handler and retransmit when timeout up to 3 times.
